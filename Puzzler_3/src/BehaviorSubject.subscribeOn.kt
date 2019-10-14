@@ -4,17 +4,17 @@ import java.lang.Thread.sleep
 
 // PUZZLER 3
 fun main(args: Array<String>) {
-    val subject = BehaviorSubject.create<Int>()
+    val subject = BehaviorSubject.create<String>()
 
-    println(Thread.currentThread().name)
+    println(threadName)
 
     subject
         .subscribeOn(Schedulers.computation())
-        .subscribe {
-            println("onNext: ${Thread.currentThread().name}")
+        .subscribe { value ->
+            println("$value: $threadName")
         }
 
-    subject.onNext(0)
+    subject.onNext("First")
     subject.onComplete()
 
     sleep(1000)

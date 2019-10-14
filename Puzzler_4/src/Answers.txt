@@ -5,18 +5,18 @@ What we'll see on output?
 
 A.
     main
-    onNext: RxComputationThreadPool-1
-    onNext: RxComputationThreadPool-1
+    First: RxComputationThreadPool-1
+    Second: RxComputationThreadPool-1
 
 B.
     main
-    onNext: RxComputationThreadPool-1
-    onNext: RxComputationThreadPool-2
+    First: RxComputationThreadPool-1
+    Second: RxComputationThreadPool-2
 
 C.
     main
-    onNext: main
-    onNext: main
+    First: main
+    Second: main
 
 D.
     main

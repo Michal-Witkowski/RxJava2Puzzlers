@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     val subject = BehaviorSubject.create<Long>()
 
     Observable
-        .interval(100, TimeUnit.MILLISECONDS)
+        .interval(100, TimeUnit.MILLISECONDS)  // Emits 0, 1, 2, 3, etc... each after given delay
         .take(3)
         .subscribe(subject)
 
