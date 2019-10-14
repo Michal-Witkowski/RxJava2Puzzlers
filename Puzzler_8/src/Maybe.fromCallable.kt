@@ -1,4 +1,5 @@
 import io.reactivex.Maybe
+import java.lang.Thread.sleep
 
 // PUZZLER 8
 fun main(args: Array<String>) {
@@ -10,6 +11,5 @@ fun main(args: Array<String>) {
             println(it)
         }
 
-    Thread.sleep(1000)
-    System.out.flush()
+    sleep(1000)
 }

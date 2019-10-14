@@ -1,5 +1,6 @@
 import io.reactivex.Observable
 import io.reactivex.subjects.BehaviorSubject
+import java.lang.Thread.sleep
 import java.util.concurrent.TimeUnit
 
 // PUZZLER 5
@@ -11,13 +12,12 @@ fun main(args: Array<String>) {
         .take(3)
         .subscribe(subject)
 
-    Thread.sleep(1000)
+    sleep(1000)
 
     subject
             .subscribe {
                 println(it)
             }
 
-    Thread.sleep(1000)
-    System.out.flush()
+    sleep(1000)
 }

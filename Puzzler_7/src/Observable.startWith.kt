@@ -1,6 +1,7 @@
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
+import java.lang.Thread.sleep
 
 // PUZZLER 7
 fun main(args: Array<String>) {
@@ -11,6 +12,5 @@ fun main(args: Array<String>) {
             println(it)
         }
 
-    Thread.sleep(1000)
-    System.out.flush()
+    sleep(1000)
 }
