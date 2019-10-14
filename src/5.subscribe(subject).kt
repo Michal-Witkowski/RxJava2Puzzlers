@@ -12,6 +12,11 @@ fun main(args: Array<String>) {
 
     Thread.sleep(1000)
 
+    subject
+            .subscribe {
+                println(it)
+            }
+
     Thread.sleep(1000)
     System.out.flush()
 }
