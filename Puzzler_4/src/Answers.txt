@@ -5,13 +5,13 @@ What we'll see on output?
 
 A.
     main
-    First: RxComputationThreadPool-1
-    Second: RxComputationThreadPool-1
+    First: Computation-1
+    Second: Computation-1
 
 B.
     main
-    First: RxComputationThreadPool-1
-    Second: RxComputationThreadPool-2
+    First: Computation-1
+    Second: Computation-2
 
 C.
     main

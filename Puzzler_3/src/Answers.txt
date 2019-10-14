@@ -5,7 +5,7 @@ What we'll see on output?
 
 A.
     main
-    first: RxComputationThreadPool-1
+    First: Computation-1
 
 B.
     main
