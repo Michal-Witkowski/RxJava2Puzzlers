@@ -1,0 +1,19 @@
+
+
+// PUZZLER 6
+What we'll see on output?
+
+A.
+    0
+
+B.
+    0
+    fromCallable
+
+C.
+    0
+    fromCallable
+    completed
+
+D.
+    nothing

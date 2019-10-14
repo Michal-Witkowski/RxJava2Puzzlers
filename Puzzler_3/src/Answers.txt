@@ -1,0 +1,18 @@
+
+
+// PUZZLER 3
+What we'll see on output?
+
+A.
+    main
+    onNext: RxComputationThreadPool-1
+
+B.
+    main
+    onNext: main
+
+C.
+    main
+
+D.
+    nothing

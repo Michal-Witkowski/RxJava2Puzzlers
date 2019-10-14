@@ -1,0 +1,16 @@
+
+
+// PUZZLER 10
+What we'll see on output?
+
+A.
+    nothing
+
+B.
+    completed
+
+C.
+    io.reactivex.exceptions.OnErrorNotImplementedException
+
+D.
+    Compilation error

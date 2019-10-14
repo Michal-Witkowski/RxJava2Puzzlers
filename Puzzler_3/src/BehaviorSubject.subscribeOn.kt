@@ -1,6 +1,7 @@
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.BehaviorSubject
 
+// PUZZLER 3
 fun main(args: Array<String>) {
     val subject = BehaviorSubject.create<Int>()
 
@@ -18,22 +19,3 @@ fun main(args: Array<String>) {
     Thread.sleep(1000)
     System.out.flush()
 }
-
-/*
-What we'll see on output?
-
-A.
-    main
-    onNext: RxComputationThreadPool-1
-
-B.
-    main
-    onNext: main
-
-C.
-    main
-
-D.
-    nothing
-
- */

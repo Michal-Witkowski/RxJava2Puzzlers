@@ -2,6 +2,7 @@ import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 
+// PUZZLER 7
 fun main(args: Array<String>) {
     Observable
         .just(1, 2)
@@ -13,23 +14,3 @@ fun main(args: Array<String>) {
     Thread.sleep(1000)
     System.out.flush()
 }
-
-/*
-What we'll see on output?
-
-A.
-    1
-    2
-
-B.
-    0
-    1
-    2
-
-C.
-    io.reactivex.exceptions.OnErrorNotImplementedException
-
-D.
-    nothing
-
- */

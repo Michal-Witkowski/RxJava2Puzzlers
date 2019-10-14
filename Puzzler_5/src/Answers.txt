@@ -1,0 +1,18 @@
+
+
+// PUZZLER 5
+What we'll see on output?
+
+A.
+    2
+
+B.
+    0
+    1
+    2
+
+C.
+    io.reactivex.exceptions.OnErrorNotImplementedException
+
+D.
+    nothing

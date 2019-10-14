@@ -1,0 +1,22 @@
+
+
+// PUZZLER 4
+What we'll see on output?
+
+A.
+    main
+    onNext: RxComputationThreadPool-1
+    onNext: RxComputationThreadPool-1
+
+B.
+    main
+    onNext: RxComputationThreadPool-1
+    onNext: RxComputationThreadPool-2
+
+C.
+    main
+    onNext: main
+    onNext: main
+
+D.
+    main

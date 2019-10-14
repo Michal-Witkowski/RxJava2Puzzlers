@@ -1,6 +1,7 @@
 import io.reactivex.Completable
 import io.reactivex.subjects.BehaviorSubject
 
+// PUZZLER 6
 fun main(args: Array<String>) {
     val completable: Completable = BehaviorSubject
         .createDefault(0)
@@ -20,23 +21,3 @@ fun main(args: Array<String>) {
     Thread.sleep(1000)
     System.out.flush()
 }
-
-/*
-What we'll see on output?
-
-A.
-    0
-
-B.
-    0
-    fromCallable
-
-C.
-    0
-    fromCallable
-    completed
-
-D.
-    nothing
-
- */

@@ -1,0 +1,28 @@
+
+
+// PUZZLER 2
+What we'll see on output?
+
+A.
+    main
+    RxComputationThreadPool-1
+    RxComputationThreadPool-2
+    RxComputationThreadPool-3
+    RxComputationThreadPool-4
+
+B.
+    main
+    RxComputationThreadPool-1
+    RxComputationThreadPool-1
+    RxComputationThreadPool-1
+    RxComputationThreadPool-1
+
+C.
+    main
+    RxCachedThreadScheduler-1
+    RxCachedThreadScheduler-2
+    RxCachedThreadScheduler-3
+    RxCachedThreadScheduler-4
+
+D.
+    main

@@ -1,5 +1,6 @@
 import io.reactivex.Maybe
 
+// PUZZLER 8
 fun main(args: Array<String>) {
     val name: String? = null
 
@@ -12,20 +13,3 @@ fun main(args: Array<String>) {
     Thread.sleep(1000)
     System.out.flush()
 }
-
-/*
-What we'll see on output?
-
-A.
-    nothing
-
-B.
-    kotlin.Nothing
-
-C.
-    java.lang.NullPointerException
-
-D.
-    null
-
- */
