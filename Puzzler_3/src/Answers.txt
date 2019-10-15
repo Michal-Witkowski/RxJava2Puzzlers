@@ -4,15 +4,15 @@
 What we'll see on output?
 
 A.
-    main
+    Main: main
     First: Computation-1
 
 B.
-    main
+    Main: main
     First: main
 
 C.
-    main
+    Main: main
 
 D.
     nothing

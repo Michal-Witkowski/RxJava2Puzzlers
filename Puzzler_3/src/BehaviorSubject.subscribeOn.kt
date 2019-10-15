@@ -6,7 +6,7 @@ import java.lang.Thread.sleep
 fun main(args: Array<String>) {
     val subject = BehaviorSubject.create<String>()
 
-    println(threadName)
+    println("Main: $threadName")
 
     subject
         .subscribeOn(Schedulers.computation())

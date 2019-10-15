@@ -4,25 +4,25 @@
 What we'll see on output?
 
 A.
-    main
-    Computation-1
-    Computation-2
-    Computation-3
-    Computation-4
+    Main: main
+    Item: Computation-1
+    Item: Computation-2
+    Item: Computation-3
+    Item: Computation-4
 
 B.
-    main
-    Computation-1
-    Computation-1
-    Computation-1
-    Computation-1
+    Main: main
+    Item: Computation-1
+    Item: Computation-1
+    Item: Computation-1
+    Item: Computation-1
 
 C.
-    main
-    IO-1
-    IO-2
-    IO-3
-    IO-4
+    Main: main
+    Item: IO-1
+    Item: IO-2
+    Item: IO-3
+    Item: IO-4
 
 D.
-    main
+    Main: main

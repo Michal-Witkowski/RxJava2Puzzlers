@@ -10,13 +10,13 @@ fun main(args: Array<String>) {
             .subscribeOn(Schedulers.io())
     }
 
-    println(threadName)
+    println("Main: $threadName")
 
     Observable
         .merge(observables)
         .observeOn(Schedulers.computation())
         .subscribe {
-            println(threadName)
+            println("Item: $threadName")
         }
 
     sleep(1000)

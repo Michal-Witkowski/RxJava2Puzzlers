@@ -4,19 +4,19 @@
 What we'll see on output?
 
 A.
-    main
+    Main: main
     First: Computation-1
     Second: Computation-1
 
 B.
-    main
+    Main: main
     First: Computation-1
     Second: Computation-2
 
 C.
-    main
+    Main: main
     First: main
     Second: main
 
 D.
-    main
+    Main: main
