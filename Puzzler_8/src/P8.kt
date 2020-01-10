@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     val name: String? = null
 
     Maybe
-        .fromCallable { name }
+        .just(name)
         .subscribe {
             println(it)
         }

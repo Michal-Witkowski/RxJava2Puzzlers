@@ -2,7 +2,7 @@ import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import java.lang.Thread.sleep
 
-// PUZZLER 11
+// PUZZLER 10
 fun main(args: Array<String>) {
     Observable
         .merge(

@@ -1,6 +1,6 @@
 
 
-// PUZZLER 11
+// PUZZLER 10
 What we'll see on output?
 
 A.
