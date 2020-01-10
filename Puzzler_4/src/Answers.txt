@@ -10,8 +10,8 @@ A.
 
 B.
     Main: main
-    First: Computation-1
-    Second: Computation-2
+    First: Computation-(Random)
+    Second: Computation-(Random)
 
 C.
     Main: main

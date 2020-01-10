@@ -5,10 +5,10 @@ What we'll see on output?
 
 A.
     Main: main
-    Item: Computation-1
-    Item: Computation-2
-    Item: Computation-3
-    Item: Computation-4
+    Item: Computation-(Random)
+    Item: Computation-(Random)
+    Item: Computation-(Random)
+    Item: Computation-(Random)
 
 B.
     Main: main
@@ -19,10 +19,10 @@ B.
 
 C.
     Main: main
-    Item: IO-1
-    Item: IO-2
-    Item: IO-3
-    Item: IO-4
+    Item: IO-(Random)
+    Item: IO-(Random)
+    Item: IO-(Random)
+    Item: IO-(Random)
 
 D.
     Main: main
