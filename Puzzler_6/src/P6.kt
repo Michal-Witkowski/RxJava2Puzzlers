@@ -1,23 +1,15 @@
-import io.reactivex.Completable
-import io.reactivex.subjects.BehaviorSubject
+import io.reactivex.Maybe
 import java.lang.Thread.sleep
 
 // PUZZLER 6
-fun main(args: Array<String>) {
-    val completable: Completable = BehaviorSubject
-        .createDefault(0)
-        .doOnNext {
+fun main() {
+    val name: String? = null
+
+    Maybe
+        .just(name)
+        .subscribe {
             println(it)
         }
-        .flatMapCompletable {
-            Completable.fromCallable {
-                println("fromCallable")
-            }
-        }
-
-    completable.subscribe {
-        println("completed")
-    }
 
     sleep(1000)
 }

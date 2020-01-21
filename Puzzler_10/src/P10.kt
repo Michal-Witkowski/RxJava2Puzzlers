@@ -3,7 +3,7 @@ import io.reactivex.schedulers.Schedulers
 import java.lang.Thread.sleep
 
 // PUZZLER 10
-fun main(args: Array<String>) {
+fun main() {
     Observable
         .merge(
             Observable.fromCallable {

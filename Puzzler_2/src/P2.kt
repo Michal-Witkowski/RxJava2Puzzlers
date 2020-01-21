@@ -1,23 +1,21 @@
-import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
+import io.reactivex.subjects.PublishSubject
 import java.lang.Thread.sleep
 
 // PUZZLER 2
-fun main(args: Array<String>) {
-    val observables = (0..3).map {
-        Observable
-            .just(1)
-            .subscribeOn(Schedulers.io())
-    }
+fun main() {
+    val subject = PublishSubject.create<String>()
 
     println("Main: $threadName")
 
-    Observable
-        .merge(observables)
-        .observeOn(Schedulers.computation())
-        .subscribe {
-            println("Item: $threadName")
+    subject
+        .subscribeOn(Schedulers.computation())
+        .subscribe { value ->
+            println("$value: $threadName")
         }
+
+    subject.onNext("First")
+    subject.onComplete()
 
     sleep(1000)
 }

@@ -4,16 +4,13 @@
 What we'll see on output?
 
 A.
-    0
+    nothing
 
 B.
-    0
-    fromCallable
+    kotlin.Nothing
 
 C.
-    0
-    fromCallable
-    completed
+    java.lang.NullPointerException
 
 D.
-    nothing
+    null

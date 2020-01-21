@@ -4,7 +4,7 @@ import java.lang.Thread.sleep
 import java.util.concurrent.TimeUnit
 
 // PUZZLER 5
-fun main(args: Array<String>) {
+fun main() {
     val subject = BehaviorSubject.create<Long>()
 
     Observable

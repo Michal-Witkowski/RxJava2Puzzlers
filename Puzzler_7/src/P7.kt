@@ -4,7 +4,7 @@ import io.reactivex.subjects.PublishSubject
 import java.lang.Thread.sleep
 
 // PUZZLER 7
-fun main(args: Array<String>) {
+fun main() {
     Observable
         .just(1, 2)
         .startWith { 0 }

@@ -5,14 +5,24 @@ What we'll see on output?
 
 A.
     Main: main
-    First: Computation-1
+    Item: Computation-(Random)
+    Item: Computation-(Random)
+    Item: Computation-(Random)
+    Item: Computation-(Random)
 
 B.
     Main: main
-    First: main
+    Item: Computation-1
+    Item: Computation-1
+    Item: Computation-1
+    Item: Computation-1
 
 C.
     Main: main
+    Item: IO-(Random)
+    Item: IO-(Random)
+    Item: IO-(Random)
+    Item: IO-(Random)
 
 D.
-    nothing
+    Main: main
