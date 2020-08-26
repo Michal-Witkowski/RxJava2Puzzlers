@@ -1,0 +1,20 @@
+
+
+// PUZZLER 1
+What we'll see on output?
+
+A.
+    Main: main
+    Default: Computation-1
+    First: Computation-1
+
+B.
+    Main: main
+    Default: main
+    First: main
+
+C.
+    Main: main
+
+D.
+    nothing
